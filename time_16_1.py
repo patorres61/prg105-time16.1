@@ -4,10 +4,14 @@
 
 # create a time class
 
-class Time():
+class Time:
     """Represents the time of day
     attributes: hour, minute, second
     """
+
+    def __init__(self):
+        pass
+
 
 def print_time(t):
     print '%.2d:%.2d:%.2d' % (t.hour, t.minute, t.second)
